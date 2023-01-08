@@ -1,0 +1,9 @@
+# Cache files.
+/*.egg-info/
+**/__pycache__/
+/.mypy_cache/
+
+# Large/binary files.
+/data/*
+!/data/.keep
+/checkpoints/*.pt
